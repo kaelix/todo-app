@@ -1,0 +1,23 @@
+.container {
+    border: solid;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+
+
+.task-container { 
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+ul {
+  font-size: 30px;
+  list-style-type: none;
+}
+
+ul:hover {
+  cursor: pointer;
+}
