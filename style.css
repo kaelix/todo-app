@@ -1,23 +1,38 @@
+body {
+  background-color: #2d4059;
+}
+
+
 .container {
-    border: solid;
-    height: 500px;
+    background-color: #056676;
+    border: none;
+    height: 700px;
     margin: auto;
+    margin-top: 75px;
+    overflow: hidden;
     text-align: center;
-    width: 40%;
+    width: 50%;
+    
 }
 
-
-.task-container { 
-    margin: auto;
-    position: relative;
-    text-align: center;
-}
 
 ul {
   font-size: 30px;
   list-style-type: none;
+  padding: 10px;
 }
 
 ul:hover {
   cursor: pointer;
+}
+
+#taskButton{
+  text-align: center;
+  height: 25px;
+}
+
+#taskInput {
+  height: 20px;
+  margin-top: 40px;
+  width: 40%;
 }
