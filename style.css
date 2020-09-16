@@ -2,11 +2,17 @@ body {
   background-color: #2d4059;
 }
 
+h1 {
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 50px;
+}
+
 
 .container {
     background-color: #056676;
     border: none;
-    height: 700px;
+    border-radius: 10%;
+    height: 500px;
     margin: auto;
     margin-top: 75px;
     overflow: hidden;
@@ -33,6 +39,6 @@ ul:hover {
 
 #taskInput {
   height: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
   width: 40%;
 }
